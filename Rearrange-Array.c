@@ -15,7 +15,7 @@ Return : [0, 1]
  * 
  * @Output Void. Just modifies the args passed by reference 
  */
-void arrange(int* arr, int n1) {
+void arrange(int* arr, int n1)  {
     int res[n1],i;
     for(i=0;i<n1;i++)
         res[i]=arr[arr[i]];
