@@ -52,9 +52,7 @@ public class Solution {
         if (set.contains(B-A.val)) {
             return 1;
         }
-        
         set.add(A.val);
-        
         return Math.max(t2Sum(A.left, B), t2Sum(A.right, B));
     }
 }
